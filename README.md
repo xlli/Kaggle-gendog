@@ -2,9 +2,9 @@
 This repository contains the 3rd place solution for the Kaggle competition "Generative Dog Images" https://www.kaggle.com/c/generative-dog-images/overview.
 
 # Directories
-kaggle-gendog/code: the source code including the submitted kernel script SAGAN-private-66.ipynb to run in Kaggle kernel and modules to run in command line.
-kaggle-gendog/sagan_models: contains the generated generator model that can be used to generate samples directly.
-kaggle-gendog/sample_images: contains a few sample images generated from the model.
+- kaggle-gendog/code: the source code including the submitted kernel script SAGAN-private-66.ipynb to run in Kaggle kernel and modules to run in command line.
+- kaggle-gendog/sagan_models: contains the generated generator model that can be used to generate samples directly.
+- kaggle-gendog/sample_images: contains a few sample images generated from the model.
 
 # SOFTWARE
 The solution is created and tested on Kaggle kernels with Python 3.6.6.
@@ -45,8 +45,8 @@ If you wish to use a different data folder or save the model to a different fold
 All the options and their default values for reproducing the result are specified in kaggle-gendog/code/parameters.py
 
 Note: the train data folder must be structured as below,
-dataroot/all-dogs/all-dogs/: all image files
-dataroot/annotation/Annotation/: annotations stored in each corresponding breed directory
+- dataroot/all-dogs/all-dogs/: all image files
+- dataroot/annotation/Annotation/: annotations stored in each corresponding breed directory
 
 
 # Jupiter notebook to run in Kaggle kernels 
