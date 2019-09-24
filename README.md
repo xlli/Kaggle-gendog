@@ -1,20 +1,20 @@
 
 This repository contains the 3rd place solution for the Kaggle competition "Generative Dog Images" https://www.kaggle.com/c/generative-dog-images/overview.
 
-#Directories
+# Directories
 kaggle-gendog/code: the source code including the submitted kernel script SAGAN-private-66.ipynb to run in Kaggle kernel and modules to run in command line.
 kaggle-gendog/sagan_models: contains the generated generator model that can be used to generate samples directly.
 kaggle-gendog/sample_images: contains a few sample images generated from the model.
 
-#SOFTWARE
+# SOFTWARE
 The solution is created and tested on Kaggle kernels with Python 3.6.6.
 The rest of software packages is specified in requirements.txt
 
-#DATA 
+# DATA 
 The training data can be downloaded from Kaggle website https://www.kaggle.com/c/generative-dog-images/data and put in the folder ./input/
 
-Shell commands to train and generate submissions 
-#1) generate submissions with the existing generator model
+# Shell commands to train and generate submissions 
+## 1) generate submissions with the existing generator model
 go to the code folder kaggle-gendog/code and run the script generate-samples.py
 
 $cd kaggle-gendog/code 
@@ -27,7 +27,7 @@ if you wish to use a generator model in different folder and store the generated
 
 $python generate_samples.py --save_model_dir "your model dir" --sample_images_path "your output images dir" --submission_dir --num_sample_images 100
 
-#2) retrain the model
+## 2) retrain the model
 go to the code folder kaggle-gendog/code and run the script train.py
 
 $cd kaggle-gendog/code 
@@ -49,7 +49,7 @@ dataroot/all-dogs/all-dogs/: all image files
 dataroot/annotation/Annotation/: annotations stored in each corresponding breed directory
 
 
-#Jupiter notebook to run in Kaggle kernels 
+# Jupiter notebook to run in Kaggle kernels 
 The easiest way to reproduce the result is to fork and run the Kaggle kernel https://www.kaggle.com/lisali/sagan-submit-2?scriptVersionId=18714508
 or 
 https://www.kaggle.com/lisali/sagan-submit-2-b13ab5 which generates the submission and the generator model as well.
