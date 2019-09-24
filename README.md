@@ -1,5 +1,5 @@
 
-This repository contains implentation of the model for the Kaggle competition "Generative Dog Images" https://www.kaggle.com/c/generative-dog-images/overview.
+This repository contains the 3rd place solution for the Kaggle competition "Generative Dog Images" https://www.kaggle.com/c/generative-dog-images/overview.
 
 #Directories
 kaggle-gendog/code: the source code including the submitted kernel script SAGAN-private-66.ipynb to run in Kaggle kernel and modules to run in command line.
